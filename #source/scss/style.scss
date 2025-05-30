@@ -1,11 +1,20 @@
 @import "_nullstyle";
 @import "_fonts";
 
+
 :root {
     --title: rgb(1, 153, 109);
     --title-h3: rgb(0, 0, 0);
     --txt: rgb(66, 66, 66);
     --button: rgb(255, 255, 255);
+    --blockGreen: rgb(36, 88, 82);
+    --blockWhite: rgb(255, 255, 255);
+}
+.wraaper{
+    background: var(--blockWhite);
+}
+.container{
+    max-width:1415px;
 }
 .title {
     color:var(--title);
