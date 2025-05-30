@@ -1,23 +1,132 @@
 @import "_nullstyle";
 @import "_fonts";
 
-
+:root {
+    --title: rgb(1, 153, 109);
+    --title-h3: rgb(0, 0, 0);
+    --txt: rgb(66, 66, 66);
+    --button: rgb(255, 255, 255);
+}
+.title {
+    color:var(--title);
+    font-family: Georgia;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.title-h2 {
+    color:var(--title);
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.title-card {
+    color:var(--title-h3)
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.header-nav {
+    color: rgb(41, 41, 41);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.txt {
+    color: var(--txt);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.button {
+    color:var(--button)
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.textspan {
+    color: var(--txt);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer-title {
+    color: rgb(255, 255, 255);
+    font-family: Avenir;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-nav {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-visa {
+    color: var(--txt);
+    color:var(--txt)
+    font-family: Lato;
+    font-size: 14.49px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.name {
+    color: var(--txt);
+    font-family: Lato;
+    font-size: 11.94px;
+    font-weight: 400;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.list-title {
+  color: var(--txt);
+    font-family: Georgia;
+    font-size: 15.93px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.list-txt {
+   color: var(--txt);
+    font-family: Georgia;
+    font-size: 15.93px;
+    font-weight: 700;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+}
 @import "_header";
 @import "_footer";
-
-@media (max-width: 576px) {
-    
-}
+@import "_media";
 
 
-
-
-/*
-Контрольная точка	Инфикс класса	Размеры
-X-Small	Никакой	<576 пикселей
-Маленький	sm	≥576px
-Терпимая	md	≥768px
-Большой	lg	≥992px
-Очень большой	xl	≥1200 пикселей
-Очень большой	xxl	≥1400 пикселей
-*/
