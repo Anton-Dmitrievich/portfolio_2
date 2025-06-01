@@ -14,7 +14,9 @@
     background: var(--blockWhite);
 }
 .container{
-    max-width:1415px;
+    max-width:1400px;
+    border:solid 1px red;
+    margin: 0 auto;
 }
 .title {
     color:var(--title);
@@ -35,7 +37,7 @@
     text-align: left;
 }
 .title-card {
-    color:var(--title-h3)
+    color:var(--title-h3);
     font-family: Georgia;
     font-size: 30px;
     font-weight: 700;
@@ -62,7 +64,7 @@
     text-align: left;
 }
 .button {
-    color:var(--button)
+    color:var(--button);
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
@@ -99,7 +101,7 @@ footer-title {
 }
 .card-visa {
     color: var(--txt);
-    color:var(--txt)
+    color:var(--txt);
     font-family: Lato;
     font-size: 14.49px;
     font-weight: 600;

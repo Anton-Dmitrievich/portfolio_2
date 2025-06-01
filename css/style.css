@@ -75,22 +75,173 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: "iconFont";
   font-display: swap;
-  src: url("/fonts/font-awesome/fonts/fontawesome-webfont.eot");
-  src: local("O"), url("/fonts/font-awesome/fonts/fontawesome-webfont.woff") format("woff"), url("/fonts/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("/fonts/font-awesome/fonts/fontawesome-webfont.svg") format("svg");
+  src: url("../../fonts/font-awesome/fonts/fontawesome-webfont.eot");
+  src: local("O"), url("../../fonts/font-awesome/fonts/fontawesome-webfont.woff") format("woff"), url("../../fonts/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("../../fonts/font-awesome/fonts/fontawesome-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-.sd {
+@font-face {
+  font-family: "lato";
+  font-display: swap;
+  src: url("");
+  src: local("O"), url("") format("woff"), url("../../fonts/Lato/Lato-Regular.ttf") format("truetype"), url("") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Georgia";
+  font-display: swap;
+  src: url("");
+  src: local("O"), url("") format("woff"), url("../../fonts/Georgia/georgia.ttf") format("truetype"), url("") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --title: rgb(1, 153, 109);
+  --title-h3: rgb(0, 0, 0);
+  --txt: rgb(66, 66, 66);
+  --button: rgb(255, 255, 255);
+  --blockGreen: rgb(36, 88, 82);
+  --blockWhite: rgb(255, 255, 255);
+}
+
+.wraaper {
+  background: var(--blockWhite);
+}
+
+.container {
+  max-width: 1400px;
+  border: solid 1px red;
   margin: 0 auto;
-  color: red;
 }
 
-body {
-  padding: 40px;
+.title {
+  color: var(--title);
+  font-family: Georgia;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.sd::before {
-  content: "\f003";
-  font-family: iconFont;
-  color: aqua;
+.title-h2 {
+  color: var(--title);
+  font-family: Georgia;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.title-card {
+  color: var(--title-h3);
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.header-nav {
+  color: rgb(41, 41, 41);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.txt {
+  color: var(--txt);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.button {
+  color: var(--button);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.textspan {
+  color: var(--txt);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer-title {
+  color: rgb(255, 255, 255);
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-nav {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.card-visa {
+  color: var(--txt);
+  color: var(--txt);
+  font-family: Lato;
+  font-size: 14.49px;
+  font-weight: 600;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.name {
+  color: var(--txt);
+  font-family: Lato;
+  font-size: 11.94px;
+  font-weight: 400;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.list-title {
+  color: var(--txt);
+  font-family: Georgia;
+  font-size: 15.93px;
+  font-weight: 700;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.list-txt {
+  color: var(--txt);
+  font-family: Georgia;
+  font-size: 15.93px;
+  font-weight: 700;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: left;
 }
