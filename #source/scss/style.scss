@@ -1,7 +1,6 @@
 @import "_nullstyle";
 @import "_fonts";
 
-
 :root {
     --title: rgb(1, 153, 109);
     --title-h3: rgb(0, 0, 0);
@@ -9,26 +8,26 @@
     --button: rgb(255, 255, 255);
     --blockGreen: rgb(36, 88, 82);
     --blockWhite: rgb(255, 255, 255);
+    --buttonBackground: rgb(1, 153, 109);
 }
-.wraaper{
+.wraaper {
     background: var(--blockWhite);
 }
-.container{
-    max-width:1400px;
-    border:solid 1px red;
+.container {
+    max-width: 1400px;
     margin: 0 auto;
 }
-.title {
-    color:var(--title);
+.title-h1 {
+    color: var(--title);
     font-family: Georgia;
     font-size: 65px;
     font-weight: 700;
     line-height: 74px;
-    letter-spacing: 0%;
+    letter-spacing: 5.9px;
     text-align: left;
 }
 .title-h2 {
-    color:var(--title);
+    color: var(--title);
     font-family: Georgia;
     font-size: 50px;
     font-weight: 700;
@@ -37,7 +36,7 @@
     text-align: left;
 }
 .title-card {
-    color:var(--title-h3);
+    color: var(--title-h3);
     font-family: Georgia;
     font-size: 30px;
     font-weight: 700;
@@ -64,7 +63,7 @@
     text-align: left;
 }
 .button {
-    color:var(--button);
+    color: var(--button);
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
@@ -101,7 +100,7 @@ footer-title {
 }
 .card-visa {
     color: var(--txt);
-    color:var(--txt);
+    color: var(--txt);
     font-family: Lato;
     font-size: 14.49px;
     font-weight: 600;
@@ -119,7 +118,7 @@ footer-title {
     text-align: center;
 }
 .list-title {
-  color: var(--txt);
+    color: var(--txt);
     font-family: Georgia;
     font-size: 15.93px;
     font-weight: 700;
@@ -128,7 +127,7 @@ footer-title {
     text-align: left;
 }
 .list-txt {
-   color: var(--txt);
+    color: var(--txt);
     font-family: Georgia;
     font-size: 15.93px;
     font-weight: 700;
@@ -136,8 +135,18 @@ footer-title {
     letter-spacing: 0%;
     text-align: left;
 }
+.button {
+    background: var(--buttonBackground);
+    color: var(--button);
+    border-radius: 6px;
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+}
+
 @import "_header";
 @import "_footer";
 @import "_media";
-
-
