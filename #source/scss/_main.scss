@@ -7,20 +7,19 @@
 .works-Upper {
     &__grid {
         display: grid;
-        grid-template-areas: 'header header' 
-        'contentL contentR';
-        
+        grid-template-areas:
+            "header header"
+            "contentL contentR";
     }
 
     &__preheader {
         grid-area: header;
-        border: solid 1px red;
     }
 
     &__title-h2 {
         grid-area: contentL;
         width: 564px;
-        border: solid 1px red;
+
         margin-right: 150px;
         letter-spacing: 3.5px;
     }
@@ -29,7 +28,7 @@
         padding-top: 19px;
         width: 671px;
         grid-area: contentR;
-        border: solid 1px red;
+
         letter-spacing: 1px;
     }
 }

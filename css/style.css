@@ -334,12 +334,10 @@ footer-title {
 }
 .works-Upper__preheader {
   grid-area: header;
-  border: solid 1px red;
 }
 .works-Upper__title-h2 {
   grid-area: contentL;
   width: 564px;
-  border: solid 1px red;
   margin-right: 150px;
   letter-spacing: 3.5px;
 }
@@ -347,6 +345,5 @@ footer-title {
   padding-top: 19px;
   width: 671px;
   grid-area: contentR;
-  border: solid 1px red;
   letter-spacing: 1px;
 }
