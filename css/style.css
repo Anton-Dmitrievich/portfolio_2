@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.Preheader {
+.preheader {
   color: var(--txt);
   font-family: Lato;
   font-size: 24px;
@@ -320,7 +320,27 @@ footer-title {
   width: 227px;
 }
 
-/*works*/
 .works {
-  padding: 182px 0 0 0;
+  padding: 170px 0px 0 0;
+}
+
+.container-works {
+  padding: 0 17px;
+}
+
+.works-Upper__grid {
+  display: grid;
+  grid-template-areas: "1" "3 2";
+}
+.works-Upper__preheader {
+  grid-area: 1;
+  border: solid 1px red;
+}
+.works-Upper__title-h2 {
+  grid-area: 2;
+  border: solid 1px red;
+}
+.works-Upper__txt {
+  grid-area: 3;
+  border: solid 1px red;
 }
