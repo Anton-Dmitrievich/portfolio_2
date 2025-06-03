@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.textspan {
+.workUptxt {
   color: var(--txt);
   font-family: Lato;
   font-size: 24px;
@@ -320,19 +320,7 @@ footer-title {
   width: 227px;
 }
 
-/*
-    works
-*/
+/*works*/
 .works {
-  padding: 171px 0 0 0;
-}
-
-.works-upblock {
-  padding: 0 0 0 17px;
-}
-.works-upblock-h2 {
-  width: 572px;
-  font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 3.6px;
+  padding: 182px 0 0 0;
 }
