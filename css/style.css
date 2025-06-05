@@ -322,16 +322,20 @@ footer-title {
 
 .works {
   padding: 170px 0px 0 0;
+  border: 1px red solid;
 }
 
 .container-works {
   padding: 0 17px;
+  border: 1px red solid;
 }
 
 .works-upper__grid {
   display: grid;
   grid-template-areas: "header header" "contentL contentR";
-  margin-bottom: 49px;
+  margin-bottom: 47px;
+  -moz-column-gap: 153px;
+       column-gap: 153px;
 }
 .works-upper__preheader {
   grid-area: header;
@@ -339,14 +343,13 @@ footer-title {
 .works-upper__title-h2 {
   grid-area: contentL;
   width: 564px;
-  margin-right: 150px;
   letter-spacing: 3.5px;
+  transform: translate(2px, -3px);
 }
 .works-upper__txt {
-  padding-top: 19px;
-  width: 671px;
-  grid-area: contentR;
-  letter-spacing: 1px;
+  letter-spacing: 0.1px;
+  margin-top: 30px;
+  transform: translate(1px, -10px);
 }
 
 .works-down__flex {
@@ -355,6 +358,11 @@ footer-title {
   align-items: flex-end;
 }
 
+.card {
+  position: relative;
+  width: 390px;
+  height: 937px;
+}
 .card__namber {
   color: rgba(1, 153, 109, 0.2);
   font-family: Georgia;
@@ -383,21 +391,16 @@ footer-title {
 .card__img-d {
   width: 185px;
   height: 148px;
-  transform: translate(206px, -270px);
   border-radius: 2% 0% 0% 2%;
-}
-
-.card-nout {
-  background: url(./img/BG.png);
-  background-size: cover;
+  position: absolute;
+  bottom: 116px;
+  right: -3px;
 }
 
 .card:nth-child(2) {
-  width: 392px;
-  height: 854px;
-  padding: 55px 0;
+  transform: translate(-3px, 286px);
 }
 
 .card:nth-child(3) {
-  transform: translate(0px, -150px);
+  transform: translate(5px, 54px);
 }
