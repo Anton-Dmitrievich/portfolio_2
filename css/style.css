@@ -322,6 +322,7 @@ footer-title {
 
 .works {
   padding: 170px 0px 0 0;
+  margin-bottom: 262px;
 }
 
 .container-works {
@@ -433,4 +434,38 @@ footer-title {
 }
 .card3__img {
   transform: translate(-4px, -22px);
+}
+
+/*Let’s get started*/
+.story {
+  background: var(--buttonBackground);
+  padding: 225px 0 0 0;
+}
+.story__title-h2 {
+  color: rgb(255, 255, 255);
+}
+
+.story-flex {
+  display: flex;
+  align-items: center;
+}
+
+.story-txt {
+  border: 1px solid red;
+  transform: translate(-46px, -68px);
+  width: 580px;
+}
+.story-txt .title-h2 {
+  width: 580px;
+}
+.story-txt .stroy__title-txt {
+  color: rgb(255, 255, 255);
+  width: 580px;
+}
+
+.story-video {
+  width: 895.84px;
+  height: 516.11px;
+  border: solid 1px;
+  border: 1px solid red;
 }
