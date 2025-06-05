@@ -1,10 +1,8 @@
 .works {
     padding: 170px 0px 0 0;
-    border: 1px red solid;
 }
 .container-works {
     padding: 0 17px;
-    border: 1px red solid;
 }
 .works-upper {
     &__grid {
@@ -58,11 +56,8 @@
         font-weight: 700;
         line-height: 150%;
         letter-spacing: 3px;
-        transform: translate(86px, -87px);
     }
     &__txt {
-        transform: translate(-3px, -32px);
-        letter-spacing: 0.1px;
         margin-bottom: 29px;
     }
     &__img {
@@ -79,9 +74,45 @@
         right: -3px;
     }
 }
-.card:nth-child(2) {
-    transform: translate(-3px, 286px);
+.card1 {
+    transform: translate(0px, 0px);
+    &__title-h3 {
+        transform: translate(84px, -87px);
+        
+    }
+    &__txt {
+        transform: translate(-3px, -34px);
+        letter-spacing: 0.1px;
+    }
+    &__img {
+        transform: translate(0px, 0px);
+    }
 }
-.card:nth-child(3) {
-    transform: translate(5px, 54px);
+.card2 {
+    transform: translate(-3px, 286px);
+    &__title-h3 {
+        transform: translate(83px, -84px);
+        letter-spacing: 2px;
+    }
+    &__txt {
+        transform: translate(-1px, -31px);
+    }
+    &__img {
+        transform: translate(0px, -22px);
+    }
+}
+.card3 {
+    transform: translate(5px, 55px);
+    &__title-h3 {
+        transform: translate(121px, -87px);
+       
+    }
+    &__txt {
+        transform: translate(-8px, -44px);
+         letter-spacing: 0.1px;
+         width: 437px;
+    }
+    &__img {
+        transform: translate(-4px, -22px);
+    }
 }
