@@ -116,4 +116,45 @@
     }
 }
 
-/*Let’s get started*/
+/*story*/
+.story {
+    background: var(--blockGreen);
+    padding: 229px 0 176px 0;
+    &__title-h2 {
+        color: rgb(255, 255, 255);
+    }
+
+    &__title-txt {
+        color: rgb(255, 255, 255);
+    }
+
+    &__button {
+        padding: 20px 50px;
+        width: 240px;
+        height: 65px;
+    }
+}
+.container {
+}
+.story-flex {
+    display: flex;
+    align-items: center;
+}
+.story-txt {
+    width: 500px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.title-h2 {
+}
+.txt {
+}
+.button {
+}
+.story-video {
+    border-radius: 16.33px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 895.84px;
+    height: 516.11px;
+}
