@@ -158,3 +158,26 @@
     width: 895.84px;
     height: 516.11px;
 }
+
+.story-video {
+    position: relative;
+}
+.play {
+    background: none;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &__range {
+        border-radius: 50%;
+        border: solid white 4px;
+        width: 80.85px;
+        height: 80.85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__triangly {
+    }
+}
