@@ -208,7 +208,6 @@ footer-title {
 
 .card-visa {
   color: var(--txt);
-  color: var(--txt);
   font-family: Lato;
   font-size: 14.49px;
   font-weight: 600;
@@ -491,8 +490,10 @@ footer-title {
   height: 80.85px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 26px;
 }
+
+/*Our_product*/
 .modal {
   display: none;
 }
