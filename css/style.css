@@ -494,50 +494,6 @@ footer-title {
 }
 
 /*Our_product*/
-.product {
-  padding: 120px 0 242px 0;
-}
-
-.product-flex {
-  display: flex;
-  gap: 90px;
-  position: relative;
-}
-
-.product-wrapper {
-  border-radius: 18.11px;
-  background: rgba(1, 153, 109, 0.2);
-  width: 638px;
-  height: 573px;
-  position: relative;
-  margin-right: px;
-}
-.product-wrapper__img {
-  position: absolute;
-  top: -66px;
-  left: 97px;
-}
-
-.product-text {
-  width: 500px;
-  height: 413px;
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-.product-text__button {
-  width: 227px;
-  height: 65px;
-  padding: 20px 50px;
-}
-.product-visa {
-  position: absolute;
-}
-.product-visa__card {
-  width: 69.73px;
-  height: 104.15px;
-  background: url(/img/product_woman.svg) no-repeat;
-}
 .modal {
   display: none;
 }
