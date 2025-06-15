@@ -12,6 +12,7 @@
 }
 .wraaper {
     background: var(--blockWhite);
+    position: relative;
 }
 .container {
     max-width: 1400px;
@@ -100,7 +101,6 @@ footer-title {
 }
 .card-visa {
     color: var(--txt);
-    color: var(--txt);
     font-family: Lato;
     font-size: 14.49px;
     font-weight: 600;
@@ -151,3 +151,6 @@ footer-title {
 @import "_main";
 @import "_footer";
 @import "_media";
+@import "_modal";
+
+
